@@ -5,7 +5,7 @@ from typing import Any
 import pandas as pd
 from mistralai import agents
 
-DRIVE_CONNECTOR_NAME = os.environ.get("DRIVE_CONNECTOR_NAME", "google_drive")
+DRIVE_CONNECTOR_NAME = os.environ.get("DRIVE_CONNECTOR_NAME", "google_drive_mcp")
 
 _DATASETS: dict[str, pd.DataFrame] = {}
 _SOURCES: dict[str, str] = {}

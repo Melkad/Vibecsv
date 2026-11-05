@@ -20,7 +20,7 @@ Agent analyste de données conversationnel construit avec le SDK Agent de Mistra
 ## Prérequis
 
 1. Un compte Mistral avec une **clé API** (`MISTRAL_API_KEY`, créée dans [console.mistral.ai](https://console.mistral.ai) → API keys).
-2. Un **connecteur Google Drive** enregistré dans votre workspace Studio : [console.mistral.ai/build/connectors](https://console.mistral.ai/build/connectors) → connecteur Google Drive → authentification OAuth avec votre compte Google. Par défaut l'agent référence le connecteur nommé `google_drive` ; si vous l'avez nommé autrement, changez `DRIVE_CONNECTOR_NAME` dans `main.py`.
+2. Un **connecteur Google Drive** enregistré dans votre workspace Studio : [console.mistral.ai/build/connectors](https://console.mistral.ai/build/connectors) → connecteur Google Drive → authentification OAuth avec votre compte Google. Par défaut l'agent référence le connecteur nommé `google_drive_mcp` ; si vous l'avez nommé autrement, changez `DRIVE_CONNECTOR_NAME` dans `main.py`.
 
 ## Test local des outils (sans clé API)
 
